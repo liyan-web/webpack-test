@@ -1,5 +1,7 @@
+import './index.css';
+
 const fn = () => {
-  console.log("hello world");
+  document.querySelector('#app').innerHTML = 'hello world';
 };
 
 fn();
